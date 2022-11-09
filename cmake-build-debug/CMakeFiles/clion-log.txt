@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\mas\Desktop\656\vmmul-harness-instructional -B C:\Users\mas\Desktop\656\vmmul-harness-instructional\cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\mas\Desktop\656\656-project-2 -B C:\Users\mas\Desktop\656\656-project-2\cmake-build-debug
 -- The C compiler identification is GNU 11.2.0
 -- The CXX compiler identification is GNU 11.2.0
 -- Detecting C compiler ABI info
@@ -28,5 +28,5 @@ Call Stack (most recent call first):
 
 
 -- Configuring incomplete, errors occurred!
-See also "C:/Users/mas/Desktop/656/vmmul-harness-instructional/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "C:/Users/mas/Desktop/656/vmmul-harness-instructional/cmake-build-debug/CMakeFiles/CMakeError.log".
+See also "C:/Users/mas/Desktop/656/656-project-2/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/mas/Desktop/656/656-project-2/cmake-build-debug/CMakeFiles/CMakeError.log".
