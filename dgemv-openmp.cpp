@@ -20,8 +20,8 @@ void my_dgemv(int n, double* A, double* x, double* y) {
         int thread_id = omp_get_thread_num();
         // printf("Hello world: thread %d of %d checking in. \n", thread_id, nthreads);
     }
-
-#pragma omp parallel
+    
+#pragma omp parallel for
     {
         for (int i=0; i<n; i++) {
             for (int j=0; j<n; j++) {
@@ -33,4 +33,3 @@ void my_dgemv(int n, double* A, double* x, double* y) {
     // and you may want to comment out the above parallel code block that prints out
     // nthreads and thread_id so as to not taint your timings
 }
-
